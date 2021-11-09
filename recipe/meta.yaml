@@ -1,5 +1,5 @@
 {% set name = "types-Flask" %}
-{% set version = "1.1.4" %}
+{% set version = "1.1.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-Flask-{{ version }}.tar.gz
-  sha256: 09306465574a1b42c48fa4a83458fbb0cd9a46df20f6901e4bf148550126cc85
+  sha256: 1294df1615e01135c5dbba530e3f8d58918afa6796f1dee8b2143c7dd47b7970
 
 build:
   number: 0
